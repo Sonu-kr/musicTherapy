@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaPlayerr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:text="Media Player"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/relax"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/playButton"
+            android:layout_width="50dp"
+            android:layout_marginLeft="140dp"
+            android:layout_height="50dp"
+            android:src="@drawable/play"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/pauseButton"
+            android:layout_height="50dp"
+            android:src="@drawable/pause"/>
+
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+    <!-- Add any other necessary UI elements -->
+</LinearLayout>

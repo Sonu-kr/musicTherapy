@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1125389971",
+    "project_id": "shoppingapp-75948",
+    "storage_bucket": "shoppingapp-75948.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1125389971:android:a94766e05223f0e24f9f66",
+        "android_client_info": {
+          "package_name": "com.example.musictherapy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9aRwGGSPr_oMuKWeoA_shoIRBGznDwto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1125389971:android:ba64a180c118d49a4f9f66",
+        "android_client_info": {
+          "package_name": "com.example.tictactoeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9aRwGGSPr_oMuKWeoA_shoIRBGznDwto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1125389971:android:03945db427330a264f9f66",
+        "android_client_info": {
+          "package_name": "com.vishalgaur.shoppingapp.ui.home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9aRwGGSPr_oMuKWeoA_shoIRBGznDwto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1125389971-uqighsolqdsnt92l29ag735vfo2i79lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

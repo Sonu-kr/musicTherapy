@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_height="40dp"
+        android:text="WELCOME"/>
+
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"/>
+
+    <EditText
+        android:id="@+id/txtAge"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your age"
+        />
+
+    <EditText
+        android:id="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Country"/>
+
+    <Spinner
+        android:id="@+id/ddGender"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/ddtype"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </Spinner>
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:checkMark="@color/black"
+        android:layout_marginTop="30dp"
+        android:text="When providing personal information, I consent to its use as per the privacy policy. No third-party sharing without my explicit consent. Security cannot be fully guaranteed."
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Click to submit"
+        android:id="@+id/btnSubmit"
+        android:background="@drawable/rounded_corners"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
