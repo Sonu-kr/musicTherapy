@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -9,10 +10,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
+        android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
+        android:text="Media Player"
         android:textSize="30sp"
-        android:text="Media Player"/>
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -21,23 +23,47 @@
         android:layout_gravity="center_horizontal"
         android:src="@drawable/relax"
         android:layout_height="wrap_content"/>
+
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/playButton"
-            android:layout_width="50dp"
-            android:layout_marginLeft="140dp"
-            android:layout_height="50dp"
-            android:src="@drawable/play"/>
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_marginLeft="20dp"
-            android:id="@+id/pauseButton"
-            android:layout_height="50dp"
-            android:src="@drawable/pause"/>
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/Cyan4"
+            android:padding="10dp"
+            app:cornerRadius="5dp"
+            android:text="Prev"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/playPauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textSize="20sp"
+            android:backgroundTint="@color/Cyan4"
+            android:textColor="@android:color/white"
+            android:padding="10dp"
+            app:cornerRadius="5dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Cyan4"
+            android:padding="10dp"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:cornerRadius="5dp" />
 
     </LinearLayout>
 
@@ -46,5 +72,7 @@
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"/>
+
     <!-- Add any other necessary UI elements -->
+
 </LinearLayout>
